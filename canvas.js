@@ -11,7 +11,7 @@ function inicio()
 
 	lienzo.beginPath();
 	lienzo.strokeStyle = "blue";
-	lienzo.arc(150,150,100, 3.1416, false);
+	lienzo.arc(150,150,100, (Math.PI * 2), false);
 	lienzo.closePath();
 	lienzo.stroke();
 
