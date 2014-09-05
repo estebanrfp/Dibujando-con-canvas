@@ -8,4 +8,11 @@ function inicio()
 	lienzo.strokestyle = "green"; //defino el color del trazo
 	lienzo.stroke(); //dibujo
 
+
+	lienzo.beginPath();
+	lienzo.strokeStyle = "blue";
+	lienzo.arc(150,150,100, 3.1416, false);
+	lienzo.closePath();
+	lienzo.stroke();
+
 }
