@@ -6,6 +6,6 @@ function inicio()
 	lienzo.moveTo(100,100); //arranco en coordenadas 100, 100
 	lienzo.lineTo(200,100); //muevo hasta 200,100
 	lienzo.strokestyle = "green"; //defino el color del trazo
-	lienzo.stroke; //dibujo
+	lienzo.stroke(); //dibujo
 
 }
